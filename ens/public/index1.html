@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="" style="height: 100%;width: 100%;">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0"> -->
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1, minimum-scale=1">
+    <meta name="facebook-domain-verification" content="ime0xuov667tww13zqpqe33uyn5d1d" />
+    <!--    <meta name="p:domain_verify" content="b761399ea5295b4c8d4afe6496852bf4"/>-->
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
+    <link as="image" href="/uploads/pics/l/1871d7a5e061441bb5f57536e86a6f05.jpg" imagesrcset="/uploads/pics/l/1871d7a5e061441bb5f57536e86a6f05.jpg 400w, /uploads/pics/l/1871d7a5e061441bb5f57536e86a6f05.jpg 800w, /uploads/pics/l/1871d7a5e061441bb5f57536e86a6f05.jpg 1600w" imagesizes="50vw">
+<!--    <link-->
+<!--            type="text/css"-->
+<!--            rel="stylesheet"-->
+<!--            href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css"-->
+<!--    />-->
+<!--    <link-->
+<!--            type="text/css"-->
+<!--            rel="stylesheet"-->
+<!--            href="https://unpkg.com/bootstrap-vue@2.21.2/dist/bootstrap-vue.css"-->
+<!--    />-->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script src="https://cdn.bootcss.com/vue/2.6.11/vue.min.js"></script>
+    <script src="https://cdn.bootcss.com/vue-router/3.5.2/vue-router.min.js"></script>
+    <script src="https://cdn.bootcss.com/axios/0.26.1/axios.min.js"></script>
+    <script src="https://cdn.bootcss.com/vuex/3.0.1/vuex.min.js"></script>
+    <script src="https://cdn.bootcss.com/element-ui/2.15.8/index.js"></script>
+    <script src="https://unpkg.com/element-ui@2.15.9/lib/umd/locale/en.js"></script>
+    <script src="https://unpkg.com/bootstrap-vue@2.21.2/dist/bootstrap-vue.js"></script>
+
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/css/swiper.css">-->
+    <link rel="stylesheet" href="/css/swiper.min.css">
+<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/js/swiper.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/js/swiper.min.js"></script>
+    <script src="/js/vue-awesome-swiper.js"></script>
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-44ZHJKBJ89"></script>
+    <script>
+        ELEMENT.locale(ELEMENT.lang.en)
+
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-44ZHJKBJ89');
+
+        window.omnisend = window.omnisend || [];
+        omnisend.push(["accountID", "62fe08a1d7fe543f19fc4164"]);
+        omnisend.push(["track", "$pageViewed"]);
+        !function () {
+            var e = document.createElement("script");
+            e.type = "text/javascript", e.async = !0, e.src = "https://omnisnippet1.com/inshop/launcher-v2.js";
+            var t = document.getElementsByTagName("script")[0];
+            t.parentNode.insertBefore(e, t)
+        }();
+
+
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1103149413911533');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1103149413911533&ev=PageView&noscript=1"/></noscript>
+    <!-- End Meta Pixel Code -->
+</head>
+
+<body style="width: 100%;width: -moz-available;width:-webkit-fill-available;width: fill-available;">
+<noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+</noscript>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+<% for (var i in htmlWebpackPlugin.options.cdn && htmlWebpackPlugin.options.cdn.js) { %>
+<script src="<%= htmlWebpackPlugin.options.cdn.js[i] %>" crossorigin="anonymous"></script>
+<% } %>
+</body>
+<!--<script src="<%= BASE_URL %>js/foxpsd.js" defer></script>-->
+</html>

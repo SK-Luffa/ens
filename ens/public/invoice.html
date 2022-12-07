@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" style="height: 100%; width: 100%;">
+<head>
+    <meta charset="utf-8">
+    <style>
+        * {
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+            margin: 0;
+            padding: 0;
+        }
+
+        html,body{
+            padding:0;
+            margin:0;
+        }
+
+
+        .root {
+            height: 100%;
+            padding: 20mm;
+        }
+
+        .root .content_1 {
+            width: 100%;
+            /*display: flex;*/
+            /*padding-top: 20mm;*/
+            /*justify-content: space-between;*/
+            border-bottom: 1px solid #000;
+            padding-bottom: 10mm;
+        }
+
+        .root .content_1 .con_1 {
+            width: 100mm;
+            font-size: 3mm;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .root .content_1 .con_1>div {
+            line-height: 3mm;
+            padding-top:1mm;
+            padding-bottom:1mm;
+        }
+        .root .content_1 .con_1 .title {
+            font-family: 'PingFang SC';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 4mm;
+            line-height: 12mm;
+            /*padding-bottom: 2mm;*/
+        }
+
+        .root .content_1 .con_2 {
+            width: 66mm;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .root .content_1 .con_2 .title {
+            /*display: flex;*/
+            /*justify-content: space-between;*/
+            font-family: 'PingFang SC';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 4mm;
+            line-height: 8mm;
+            /*margin-bottom: 2mm;*/
+            padding-left: 2mm;
+            padding-right: 2mm;
+        }
+
+        .root .content_1 .con_2 .title>span {
+            width: 30mm;
+            display: inline-block;
+        }
+        .root .content_1 .con_2 .title .span2 {
+            font-family: 'PingFang SC';
+            font-style: normal;
+            font-weight: 400;
+
+            font-size: 3mm;
+            line-height: 7mm;
+            width: 29mm;
+            text-align: right;
+        }
+        .root .content_1 .con_2 .title .span2.money {
+            font-weight: 500;
+            font-size: 4mm;
+        }
+
+        .root .content_1 .con_2 .lists {
+            background: #c9c8c8;
+            line-height: 10mm;
+        }
+
+        .root .content_1 .con_2 img {
+            width: 50mm;
+            height: 50mm;
+            margin-top: 5mm;
+            margin-left: 14mm;
+        }
+
+        .root .bottoms {
+            height: 5mm;
+            padding-top: 2mm;
+        }
+
+        .root .bottoms div {
+            text-align: center;
+        }
+
+        .root .bottoms img{
+            width:10mm;
+            height:10mm;
+        }
+
+        .root .conb {
+            border: none;
+        }
+
+        .root .conc {
+            padding-bottom: 5mm;
+            border-bottom: 1px solid #000;
+        }
+
+        .root .content_2 {
+            width: 100%;
+            padding-top: 4mm;
+            padding-left: 1mm;
+            padding-right: 1mm;
+            padding-bottom: 2mm;
+        }
+
+        .root .content_2 table {
+            width: 100%;
+        }
+        .root .content_2 thead {
+            font-family: 'PingFang SC';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 4mm;
+            line-height: 7mm;
+            padding-left: 2mm;
+            background: #c9c8c8;
+        }
+        .root .content_2 thead td{
+            background: #c9c8c8;
+            padding:2mm;
+        }
+
+        .root .content_2 tbody td{
+            font-size: 3mm;
+            padding:2mm;
+        }
+
+    </style>
+</head>
+<body>
+<div id="app">
+    <div class="root content">
+        <div class="content_1">
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td valign="top">
+                        <div class="con_1">
+                            <div class="title">BILL FROM:</div>
+                            <div th:utext="${seller.name}">Patternbuy Limited</div>
+                            <div th:utext="${seller.address}">
+                                Room 06,13A/F,South Tower, World Finance Centre harbour city,17 canton road,tsim sha tsui
+                            </div>
+                            <div th:utext="${seller.city}">Hong Kong, HK, 999077</div>
+                            <div th:utext="${seller.region}">Hong Kong SAR</div>
+                            <div th:utext="${seller.email}">contact@patternbuy.com</div>
+                        </div>
+                    </td>
+                    <td valign="top">
+                        <div class="con_2"><img src="logo.png" alt="" th:src="${seller.logo}">
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="content_1 conb">
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td valign="top">
+                        <div class="con_1">
+                            <div class="title">BILL TO:</div>
+                            <div th:utext="${buyer.name}">customer's name</div>
+                            <div th:utext="${buyer.address}">customer's address(no need)</div>
+                            <div th:utext="${buyer.city}">city(no need), AL, zip(no need)</div>
+                            <div th:utext="${buyer.region}">United States</div>
+                            <div th:utext="${buyer.email}">patternbuy@gmail.com</div>
+                        </div>
+                    </td>
+                    <td valign="top">
+                        <div class="con_2 " style="margin-top: 4mm;">
+                            <div class="title">
+                                <span> INVOICE #</span>
+                                <span class="span2"> 01</span>
+                            </div>
+                            <div class="title">
+                                <span> INVOICE DATE</span>
+                                <span class="span2" th:utext="${header.datePay}">0000-00-00</span>
+                            </div>
+                            <div class="title lists">
+                                <span>AMOUNT DUE </span>
+                                <span class="span2 money" th:utext="${header.payMoney}">$150.00</span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="content_2">
+            <table cellpadding="0" cellspacing="0">
+                <thead>
+                    <tr>
+                        <td>Item</td>
+                        <td>Description</td>
+                        <td>Seat</td>
+                        <td>Unit Cost</td>
+                        <td>Line Total</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr th:each="t,ts : ${list}">
+                        <td><span th:utext="${t.imgSn}">Item</span></td>
+                        <td><span th:utext="${t.mode}">Description</span></td>
+                        <td><span th:utext="${t.productNum}">Seat</span></td>
+                        <td><span  th:utext="${t.imgType}==3?${t.priceOnce}:${t.price}">Unit Cost</span></td>
+                        <td> <span th:utext="${t.orderAmount}">Line Total</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="content_1 conb conc" >
+            <div class="con_1"></div>
+            <div class="con_2 ">
+                <div class="title">
+                    <span> SUBTOTAL</span>
+                    <span class="span2" th:utext="${header.payMoney}">$0.00</span>
+                </div>
+                <div class="title">
+                    <span> TAX </span>
+                    <span class="span2">$0.00</span>
+                </div>
+                <div class="title lists">
+                    <span> TOTAL </span>
+                    <span class="span2 money" th:utext="${header.payMoney}">$0.00</span>
+                </div>
+            </div>
+        </div>
+        <div class="bottoms">
+            <div><img th:src="${seller.logo}" src="logo.png" alt=""></div>
+            <div>Powered by patternbuy</div>
+            <div>www.patternbuy.com</div>
+        </div>
+    </div>
+</div>
+<!-- built files will be auto injected -->
+
+
+</body>
+
+</html>

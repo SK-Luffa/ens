@@ -1,0 +1,22 @@
+p.MsoNormal {
+    padding-left: 332;
+    padding-right: 332px;
+}
+
+/*p {*/
+/*    padding-left: 332px !important;*/
+/*    padding-right: 332px !important;*/
+/*}*/
+
+p .FAQ {
+    font-family: 'PingFang SC' !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 24px !important;
+    line-height: 34px !important;
+    color: #222222;
+}
+
+/*body {*/
+/*    margin-top: 67px !important;*/
+/*}*/

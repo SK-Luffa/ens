@@ -1,0 +1,305 @@
+{
+    "code": 200,
+    "status": "SUCCESS",
+    "desc": "Operation Succeed",
+    "data": [
+        {
+            "folderId": 835,
+            "memberId": 123,
+            "title": "山水",
+            "titleEnglish": "",
+            "folderCover": "",
+            "addDate": 1561446825,
+            "modifyDate": 0,
+            "status": 0,
+            "picNum": 40,
+            "randNum": 1,
+            "isShare": 1,
+            "desc": "''",
+            "boardId": "",
+            "productList": []
+        },
+        {
+            "folderId": 1212,
+            "memberId": 28,
+            "title": "轻奢",
+            "titleEnglish": "",
+            "folderCover": "20200110-15-04-342413.jpg",
+            "addDate": 1568096996,
+            "modifyDate": 0,
+            "status": 0,
+            "picNum": 1123,
+            "randNum": 0,
+            "isShare": 1,
+            "desc": "''",
+            "boardId": "",
+            "productList": [
+                {
+                    "productId": 185,
+                    "title": "Y032",
+                    "cover": "/uploads/pics/k/6edfbd958425d787a526e184376fe58d.jpg",
+                    "addDate": 1568883124
+                },
+                {
+                    "productId": 202,
+                    "title": "Y052",
+                    "cover": "/uploads/pics/k/e7c87e316c4d77c3c8c3ffd3cfc50da4.jpg",
+                    "addDate": 1568883118
+                },
+                {
+                    "productId": 255,
+                    "title": "Y074",
+                    "cover": "/uploads/pics/k/ee2f47a5692e13c2b8c68c76f7380ac1.jpg",
+                    "addDate": 1568883103
+                },
+                {
+                    "productId": 260,
+                    "title": "Y081",
+                    "cover": "/uploads/pics/k/cae28c2b1680ef070e6da9fb0b4c66f9.jpg",
+                    "addDate": 1568883107
+                },
+                {
+                    "productId": 264,
+                    "title": "Y085",
+                    "cover": "/uploads/pics/k/9ece6aef77f4d8fa210e44baa7084db4.jpg",
+                    "addDate": 1568883105
+                },
+                {
+                    "productId": 267,
+                    "title": "Y089",
+                    "cover": "/uploads/pics/k/eecc21b086617696af0d80d9747cee2b.jpg",
+                    "addDate": 1568883097
+                },
+                {
+                    "productId": 274,
+                    "title": "Y104",
+                    "cover": "/uploads/pics/k/504378e4811d5f0325b78faf9745ec46.jpg",
+                    "addDate": 1568883095
+                }
+            ]
+        },
+        {
+            "folderId": 1212,
+            "memberId": 28,
+            "title": "轻奢",
+            "titleEnglish": "",
+            "folderCover": "20200110-15-04-342413.jpg",
+            "addDate": 1568096996,
+            "modifyDate": 0,
+            "status": 0,
+            "picNum": 1123,
+            "randNum": 0,
+            "isShare": 1,
+            "desc": "''",
+            "boardId": "",
+            "productList": [
+                {
+                    "productId": 185,
+                    "title": "Y032",
+                    "cover": "/uploads/pics/k/6edfbd958425d787a526e184376fe58d.jpg",
+                    "addDate": 1568883124
+                },
+                {
+                    "productId": 202,
+                    "title": "Y052",
+                    "cover": "/uploads/pics/k/e7c87e316c4d77c3c8c3ffd3cfc50da4.jpg",
+                    "addDate": 1568883118
+                },
+                {
+                    "productId": 255,
+                    "title": "Y074",
+                    "cover": "/uploads/pics/k/ee2f47a5692e13c2b8c68c76f7380ac1.jpg",
+                    "addDate": 1568883103
+                },
+                {
+                    "productId": 260,
+                    "title": "Y081",
+                    "cover": "/uploads/pics/k/cae28c2b1680ef070e6da9fb0b4c66f9.jpg",
+                    "addDate": 1568883107
+                },
+                {
+                    "productId": 264,
+                    "title": "Y085",
+                    "cover": "/uploads/pics/k/9ece6aef77f4d8fa210e44baa7084db4.jpg",
+                    "addDate": 1568883105
+                },
+                {
+                    "productId": 267,
+                    "title": "Y089",
+                    "cover": "/uploads/pics/k/eecc21b086617696af0d80d9747cee2b.jpg",
+                    "addDate": 1568883097
+                },
+                {
+                    "productId": 274,
+                    "title": "Y104",
+                    "cover": "/uploads/pics/k/504378e4811d5f0325b78faf9745ec46.jpg",
+                    "addDate": 1568883095
+                }
+            ]
+        },
+        {
+            "folderId": 1212,
+            "memberId": 28,
+            "title": "轻奢",
+            "titleEnglish": "",
+            "folderCover": "20200110-15-04-342413.jpg",
+            "addDate": 1568096996,
+            "modifyDate": 0,
+            "status": 0,
+            "picNum": 1123,
+            "randNum": 0,
+            "isShare": 1,
+            "desc": "''",
+            "boardId": "",
+            "productList": [
+                {
+                    "productId": 185,
+                    "title": "Y032",
+                    "cover": "/uploads/pics/k/6edfbd958425d787a526e184376fe58d.jpg",
+                    "addDate": 1568883124
+                },
+                {
+                    "productId": 202,
+                    "title": "Y052",
+                    "cover": "/uploads/pics/k/e7c87e316c4d77c3c8c3ffd3cfc50da4.jpg",
+                    "addDate": 1568883118
+                },
+                {
+                    "productId": 255,
+                    "title": "Y074",
+                    "cover": "/uploads/pics/k/ee2f47a5692e13c2b8c68c76f7380ac1.jpg",
+                    "addDate": 1568883103
+                },
+                {
+                    "productId": 260,
+                    "title": "Y081",
+                    "cover": "/uploads/pics/k/cae28c2b1680ef070e6da9fb0b4c66f9.jpg",
+                    "addDate": 1568883107
+                },
+                {
+                    "productId": 264,
+                    "title": "Y085",
+                    "cover": "/uploads/pics/k/9ece6aef77f4d8fa210e44baa7084db4.jpg",
+                    "addDate": 1568883105
+                },
+                {
+                    "productId": 267,
+                    "title": "Y089",
+                    "cover": "/uploads/pics/k/eecc21b086617696af0d80d9747cee2b.jpg",
+                    "addDate": 1568883097
+                },
+                {
+                    "productId": 274,
+                    "title": "Y104",
+                    "cover": "/uploads/pics/k/504378e4811d5f0325b78faf9745ec46.jpg",
+                    "addDate": 1568883095
+                }
+            ]
+        },
+        {
+            "folderId": 1436,
+            "memberId": 28,
+            "title": "隐纹",
+            "titleEnglish": "",
+            "folderCover": "20191031-16-43-291589.jpg",
+            "addDate": 1572243801,
+            "modifyDate": 0,
+            "status": 0,
+            "picNum": 4,
+            "randNum": 2,
+            "isShare": 1,
+            "desc": "''",
+            "boardId": "",
+            "productList": [
+                {
+                    "productId": 27288,
+                    "title": "JYD6879",
+                    "cover": "/uploads/pics/k/05bfdc349e06d324125d139b6849cdea.jpg",
+                    "addDate": 1578638795
+                }
+            ]
+        },
+        {
+            "folderId": 1440,
+            "memberId": 28,
+            "title": "xl标签",
+            "titleEnglish": "",
+            "folderCover": "20191024-15-14-534094.jpg",
+            "addDate": 1572320414,
+            "modifyDate": 0,
+            "status": 0,
+            "picNum": 4,
+            "randNum": 1,
+            "isShare": 1,
+            "desc": "''",
+            "boardId": "",
+            "productList": [
+                {
+                    "productId": 27124,
+                    "title": "JYD6803",
+                    "cover": "/uploads/pics/k/858d537c285a807b3ebfa8b1c0249ee1.jpg",
+                    "addDate": 1572320709
+                },
+                {
+                    "productId": 27141,
+                    "title": "YA0145",
+                    "cover": "/uploads/pics/k/7d0f29b253f653d8889ebcb0beea8a10.jpg",
+                    "addDate": 1572320584
+                },
+                {
+                    "productId": 27163,
+                    "title": "YC0247",
+                    "cover": "/uploads/pics/k/72494a64a295d81239d89f0edd3c1043.jpg",
+                    "addDate": 1572320513
+                }
+            ]
+        },
+        {
+            "folderId": 1463,
+            "memberId": 28,
+            "title": "艺术绘画",
+            "titleEnglish": "",
+            "folderCover": "20190516-04-25-444.jpg",
+            "addDate": 1572585976,
+            "modifyDate": 0,
+            "status": 0,
+            "picNum": 2,
+            "randNum": 2,
+            "isShare": 1,
+            "desc": "''",
+            "boardId": "",
+            "productList": []
+        }
+    ],
+    "user": {
+        "token": "1a966b7598bf41399cd0f82199b8c33e",
+        "id": 2335,
+        "member_id": 2335,
+        "memberRank": 0,
+        "maxPermission": 0,
+        "isType": 0,
+        "companyIsType": 0,
+        "accountType": 0,
+        "typeId": "0",
+        "companyId": 2335,
+        "loginType": "loginByPwd",
+        "userName": "kenty@163.com",
+        "companyName": "kenty@163.com",
+        "cardId": "",
+        "realName": "",
+        "lastLogDate": "2022-11-01 18:33:51",
+        "lastLogIp": "127.0.0.1",
+        "companyEndDate": "1970-01-01 08:00:00",
+        "endDate": "1970-01-01 08:00:00",
+        "companyBalance": 0.0,
+        "balance": 0.0,
+        "forcePoint": 0,
+        "companyRightBalance": 0,
+        "rightBalance": 0,
+        "mobile": "ksi****.com",
+        "email": "ksiventy@163.com",
+        "superAdmin": 0,
+        "labels": "",
+        "portrait": ""
+    }
+}

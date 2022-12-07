@@ -1,0 +1,46 @@
+{
+  "name": "patternbuy",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@paypal/paypal-js": "^5.1.0",
+    "axios": "^0.26.1",
+    "babel-eslint": "^10.1.0",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.15.8",
+    "fabric": "^5.2.1",
+    "less-loader": "6.0.0",
+    "pagination": "^0.4.6",
+    "store": "^2.0.12",
+    "style-loader": "^1.3.0",
+    "swiper": "^5.4.5",
+    "terser-webpack-plugin": "^4.2.3",
+    "v-click-outside-x": "^4.1.3",
+    "view-design": "^4.7.0",
+    "view-ui-plus": "^1.0.0",
+    "vue": "^2.6.11",
+    "vue-hotjar": "^1.4.0",
+    "vue-router": "3.5.2",
+    "vuex": "^3.0.1",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.15",
+    "@vue/cli-plugin-eslint": "~4.5.15",
+    "@vue/cli-service": "~4.5.15",
+    "compression-webpack-plugin": "^5.0.1",
+    "vue-no-ssr": "^1.1.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

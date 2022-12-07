@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /favorites*
+Disallow: /shoppingcar*
+Disallow: /personalCenter*
+Disallow: /login*
+Disallow: /signup*
+
+# Sitemap: https://www.xxx.com/sitemap.xml

@@ -1,0 +1,84 @@
+/*p {*/
+/*    padding-left: 332px !important;*/
+/*    padding-right: 332px !important;*/
+/*}*/
+
+p .FAQ {
+    font-family: 'PingFang SC' !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 24px !important;
+    line-height: 34px !important;
+    color: #222222;
+}
+
+p.MsoNormal {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.bodytext {
+    background: #eee;
+}
+
+.bodys {
+    width: 650px;
+    margin: 0 auto;
+    padding: 50px 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    min-height: 93.24vh;
+    padding-bottom: 0;
+}
+
+.pus {
+    position: relative;
+    width: 100%;
+
+}
+
+.title {
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.Section0 {
+    margin-bottom: 5rem !important;
+}
+
+.bottom {
+    height: 73px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 73px;
+}
+
+.contents {
+    width: 100%;
+    margin-bottom: 5rem !important;
+}
+
+.imgs {
+    width: 100%;
+}
+
+.asb {
+    text-decoration: none
+}
+
+.asb:hover {
+    text-decoration: underline;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

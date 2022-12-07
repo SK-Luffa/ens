@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div><span>code:</span><span id="code"></span></div>
+<div><span>token:</span><span id="token"></span></div>
+
+<script>
+    var code = getUrlParam('code');
+    if (code) {
+        document.getElementById("code").innerText=code;
+
+        var xmlhttp,url="/api/member/pinterest/token";
+        if (window.XMLHttpRequest){
+            xmlhttp = new XMLHttpRequest();//  IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码
+        }
+        else{
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");// IE6, IE5 浏览器执行代码
+        }
+        xmlhttp.onreadystatechange=function(){
+            if (xmlhttp.readyState==4 && xmlhttp.status==200){
+                responsecontent = xmlhttp.responseText;
+                // var Res = "成功获取HTTP响应,得到结果!\n"+responsecontent;
+                document.getElementById("token").innerText = responsecontent;
+                // document.getElementById("convertjson").disabled = false;
+                // document.getElementById("jsonresult").innerText = "";
+            }
+        }
+        xmlhttp.open("POST",url,true);
+        xmlhttp.setRequestHeader('content-type', 'application/json');
+        // xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");// Post请求需要设置请求头
+        var sendData = {code:code};
+        xmlhttp.send(JSON.stringify(sendData));
+
+    } else {
+        var url = "https://www.patternbuy.com/pinterest.html";
+        location.href = "https://www.pinterest.com/oauth/?consumer_id=1480944&redirect_uri=" + encodeURI(url)+"&response_type=code&scope=boards:read,boards:write,pins:write,pins:read";
+    }
+
+    function getUrlParam(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return unescape(r[2]);
+        return null;
+    }
+
+</script>
+</body>
+</html>
